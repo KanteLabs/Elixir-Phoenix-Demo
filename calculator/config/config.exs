@@ -12,7 +12,7 @@ config :calculator,
 # Configures the endpoint
 config :calculator, CalculatorWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "n3O0PDfb4ZU2mlXAc5SxvAq0N+OOl0TWy6W1AhbqvcwB/mXMlMW5a8DSoyis8pfB",
+  secret_key_base: "5Up6VSDF6AXXnIEOWv+oiOxdkZpCd3fNEm0wYKQHpDXwUItl9q4TY0laRoFiBOwO",
   render_errors: [view: CalculatorWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Calculator.PubSub,
            adapter: Phoenix.PubSub.PG2]

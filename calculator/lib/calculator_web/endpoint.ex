@@ -36,7 +36,7 @@ defmodule CalculatorWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_calculator_key",
-    signing_salt: "oZ6wKflb"
+    signing_salt: "NfmVXT2D"
 
   plug CalculatorWeb.Router
 
