@@ -18,6 +18,7 @@ defmodule BeanieBabiesWeb.Router do
 
     get "/", PageController, :index
     get "/beanies", BeanieController, :index
+    get "/beanies/:baby", BeanieController, :show
   end
 
   # Other scopes may use custom stacks.
