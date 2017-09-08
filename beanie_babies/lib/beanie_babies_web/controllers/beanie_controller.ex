@@ -5,7 +5,7 @@ defmodule BeanieBabiesWeb.BeanieController do
     render conn, "index.html"
   end
 
-  def show(conn, %{"baby" => baby}) do
-    render conn, "show.html", baby: baby
+  def show(conn, %{"id" => id}) do
+    render conn, "show.html", id: id
   end
 end
