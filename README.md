@@ -8,22 +8,22 @@ run ``` brew install elixir ``` in the terminal to install Elixir
 
 
 
-#Phoenix
+# Phoenix
 
-##Installation
+## Installation
 Install all Dependencies by running the following in the command line:
 
-###Elixir
+### Elixir
 (this command installs elixir and erlang)
 ``` brew install elixir```
 
-###Hex
+### Hex
 ```mix local.hex```
 
-###Phoenix
+### Phoenix
 ```mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez```
 
-##Creating a Phoenix Web App
+## Creating a Phoenix Web App
 Create the app by running 
 ```mix phx.new [app name]``` 
 
