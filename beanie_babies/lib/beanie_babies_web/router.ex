@@ -17,6 +17,9 @@ defmodule BeanieBabiesWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/beanies", BeanieController
+    # get "/beanies", BeanieController, :index
+    # get "/beanies/:baby", BeanieController, :show
   end
 
   # Other scopes may use custom stacks.
