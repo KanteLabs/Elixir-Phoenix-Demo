@@ -4,7 +4,7 @@
 Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems, while also being successfully used in web development and the embedded software domain.
 
-run ``` brew install elixir ``` in the terminal to install Elixir
+ ``` brew install elixir ``` in the terminal to install Elixir
 
 ```iex``` to enter 'interactive elixir'. This allows you to run elixir expressions in the terminal.
 
@@ -12,6 +12,8 @@ run ``` brew install elixir ``` in the terminal to install Elixir
 
 ## Basic Types
 
+Syntax
+```Elixir
 iex> 1          # integer
 iex> 0x1F       # integer
 iex> 1.0        # float
@@ -20,12 +22,37 @@ iex> :atom      # atom / symbol
 iex> "elixir"   # string
 iex> [1, 2, 3]  # list
 iex> {1, 2, 3}  # tuple
+```
 
-String.methodName(value)
-```String.length("cat") -> 5``` 
+## Basic Calculator
+Calculator
+```Elixir
+defmodule Calc do
+    def add(a, b) do
+        val = a + b
+       IO.puts val
+        val
+    end
 
+    def sub(a, b) do
+        val = a - b
+        IO.puts val
+    end
 
-# Phoenix
+    def multi(a, b) do
+        val = a * b
+        IO.puts val
+    end
+
+    def div(a, b) do
+        val = a / b
+        IO.puts val
+    end
+    
+end
+```
+
+## Phoenix
 
 ## Installation
 Install all Dependencies by running the following in the command line:
