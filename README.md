@@ -25,23 +25,27 @@ iex> {1, 2, 3}  # tuple
 ```
 
 ## Simple Calculator
-To create a calculator in Elixir you will first need to create a file with the extension '*.ex'.
-    ```calculator.ex```
-First we need to define our module which can be done with:
-    ```Elixir
-    defmodule Calc do
+To create a calculator in Elixir you will first need to create a file with the extension ' *.ex ' such as calculator.ex
 
-    end
-    ````
+First we need to define our module which can be done with:
+
+```Elixir
+defmodule Calc do
+
+end
+```
+
 Inside of our module we can right all of our different math methods. For instance for addition you would do:
-    ```Elixir
-    defmodule Calc do
-        def add(a, b) do
-            val = a + b
-            IO.puts val
-        end
+
+```Elixir
+defmodule Calc do
+    def add(a, b) do
+        val = a + b
+        IO.puts val
     end
-    ```
+end
+```
+
 You can continue to do this for every math method that you want. 
 
 In order to compile the code so that you can run it from the terminal you need to enter:
@@ -73,7 +77,6 @@ defmodule Calc do
         val = a / b
         IO.puts val
     end
-    
 end
 ```
 
