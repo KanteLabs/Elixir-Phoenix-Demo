@@ -42,11 +42,14 @@ Inside of our module we can right all of our different math methods. For instanc
         end
     end
     ```
-    
+You can continue to do this for every math method that you want. 
+
 In order to compile the code so that you can run it from the terminal you need to enter:
 ``` elixirc calculator.ex```
 This will create a file called Elixir.Calc.beam. The middle word Calc is the name of the module that you defined inside the file.
 For instance 'defmoudle Calc'
+
+### Full Calculator Code
 Calculator
 ```Elixir
 defmodule Calc do
