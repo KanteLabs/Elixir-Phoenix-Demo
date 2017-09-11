@@ -24,7 +24,29 @@ iex> [1, 2, 3]  # list
 iex> {1, 2, 3}  # tuple
 ```
 
-## Basic Calculator
+## Simple Calculator
+To create a calculator in Elixir you will first need to create a file with the extension '*.ex'.
+    ```calculator.ex```
+First we need to define our module which can be done with:
+    ```Elixir
+    defmodule Calc do
+
+    end
+    ````
+Inside of our module we can right all of our different math methods. For instance for addition you would do:
+    ```Elixir
+    defmodule Calc do
+        def add(a, b) do
+            val = a + b
+            IO.puts val
+        end
+    end
+    ```
+    
+In order to compile the code so that you can run it from the terminal you need to enter:
+``` elixirc calculator.ex```
+This will create a file called Elixir.Calc.beam. The middle word Calc is the name of the module that you defined inside the file.
+For instance 'defmoudle Calc'
 Calculator
 ```Elixir
 defmodule Calc do
