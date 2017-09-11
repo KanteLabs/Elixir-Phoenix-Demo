@@ -1,5 +1,5 @@
 IO.puts "Calculator loaded"
-IO.puts "Calc.add/2, Calc.sub/2, Calc.multi/2"
+IO.puts "Calc accepts 2 inputs. "
 
 defmodule Calc do
     def add(a, b) do
@@ -19,7 +19,8 @@ defmodule Calc do
     end
 
     def div(a, b) do
-        IO.puts a / b
+        val = a / b
+        IO.puts val
     end
     
 end

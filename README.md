@@ -6,7 +6,6 @@ run ``` brew install elixir ``` in the terminal to install Elixir
 
 ```iex``` to enter 'interactive elixir'. This allows you to run elixir expressions in the terminal.
 
-<<<<<<< HEAD
 ## Basic Types
 
 iex> 1          # integer
@@ -20,7 +19,6 @@ iex> {1, 2, 3}  # tuple
 
 String.methodName(value)
 ```String.length("cat") -> 5``` 
-=======
 
 
 # Phoenix
@@ -48,4 +46,3 @@ The app can be run with the command
 ```mix phx.server``` 
 or inside interactive elixir with 
 ```iex -S mix phx.server```
->>>>>>> b5a2f1f570b569089596c97e11dc0962b70e1de5
